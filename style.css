@@ -1,0 +1,54 @@
+*{
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    /*background: linear-gradient(30deg,#60EAFF, #0318FF);*/
+    background:linear-gradient(30deg,#000000,#41424C);
+}
+
+canvas{
+    width: 100%;
+    height: 100%;
+}
+
+#myBtn{
+    position: absolute;
+    top: 650px;
+    left: 700px;
+    border:none;
+    padding: 10px 30px;
+    text-align: center;
+    font:'Hind';
+    border-radius: 10px; /* 버튼 모서리 둥글게 만들기 */
+    box-shadow: 1px 1px 1px gray; /* 버튼 그림자 효과 추가 */
+}
+  /* 버튼에 마우스 호버 효과 추가 */
+#myBtn:hover {
+   background-color: #FFFFFF;
+}
+#myBtn1{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    border:none;
+    padding: 10px 30px;
+    text-align: center;
+    font:'Hind';
+    border-radius: 10px; /* 버튼 모서리 둥글게 만들기 */
+    box-shadow: 1px 1px 1px gray; /* 버튼 그림자 효과 추가 */
+}
+  /* 버튼에 마우스 호버 효과 추가 */
+#myBtn1:hover {
+   background-color: #FFFFFF;
+}
+  
